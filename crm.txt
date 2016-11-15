@@ -1,0 +1,9 @@
+COption::GetOptionString('crm', 'default_product_catalog_id', '0');  --- ID инфоблока из которого будут подтягиватся товары для компонента bitrix:catalog.product.search
+
+
+
+
+
+
+
+
