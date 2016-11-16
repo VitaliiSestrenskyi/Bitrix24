@@ -1,8 +1,12 @@
 \Bitrix\Main\Config\COption::GetOptionString('crm', 'default_product_catalog_id', '0');  --- ID инфоблока из которого будут подтягиватся товары для компонента bitrix:catalog.product.search
 \Bitrix\Main\Config\Option::get('catalog', 'product_form_show_offers_iblock');  ---- Настройка каталога нужно установить Y,  чтобы можно было выбирать инфоблок торг. предложений  
 
-
-
+---регистрирую события 
+BX.addCustomEvent("onChangePaySystem", function( obSelect ){
+    Collector.Init();
+});
+--- в нужном месте 
+BX.onCustomEvent("onChangePaySystem", [ this, "DKLFHJG" ]);
 
 
 
