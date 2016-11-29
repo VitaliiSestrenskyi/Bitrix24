@@ -1,0 +1,10 @@
+--получения значения UF-свойства определенной сущности
+
+global $USER_FIELD_MANAGER;
+$ufDataProject = $USER_FIELD_MANAGER->GetUserFields(
+            "CRM_DEAL",
+            $item['ID'],
+            LANGUAGE_ID
+        );
+        
+        
