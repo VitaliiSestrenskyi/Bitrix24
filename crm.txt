@@ -11,3 +11,4 @@ BX.onCustomEvent("onChangePaySystem", [ this, "DKLFHJG" ]);
 CCrmFieldMulti::GetList(array(),array('ENTITY_ID' => 'CONTACT', 'ELEMENT_ID' => $arEntity['ID'])); --- свойства сущности Контакт
 
 
+ $arEntityTypes = CCrmFieldMulti::GetEntityTypes(); ---- получения типов
