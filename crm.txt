@@ -12,3 +12,9 @@ CCrmFieldMulti::GetList(array(),array('ENTITY_ID' => 'CONTACT', 'ELEMENT_ID' => 
 
 
  $arEntityTypes = CCrmFieldMulti::GetEntityTypes(); ---- получения типов
+
+
+//получения дынных UF свойств контакта CRM
+global $USER_FIELD_MANAGER;
+$idContact   = 1;
+$contactData = $USER_FIELD_MANAGER -> GetUserFields( "CRM_CONTACT", $idContact, LANGUAGE_ID );
