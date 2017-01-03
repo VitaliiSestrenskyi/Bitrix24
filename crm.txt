@@ -18,3 +18,15 @@ CCrmFieldMulti::GetList(array(),array('ENTITY_ID' => 'CONTACT', 'ELEMENT_ID' => 
 global $USER_FIELD_MANAGER;
 $idContact   = 1;
 $contactData = $USER_FIELD_MANAGER -> GetUserFields( "CRM_CONTACT", $idContact, LANGUAGE_ID );
+
+
+//фильтр по дате 
+$date  = new DateTime();
+$start = $date->format('d.m.Y').' 00:00:00';
+$end = $date->format('d.m.Y').' 23:59:59';
+
+
+$test = \Bitrix\Crm\DealTable::getList([
+    'filter'=>array('<=DATE_CREATE'=>\Bitrix\Main\Type\DateTime::createFromUserTime($end), '>=DATE_CREATE'=>\Bitrix\Main\Type\DateTime::createFromUserTime($start)),
+    'select'=>array('*')
+])->fetchAll();
