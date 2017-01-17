@@ -14,7 +14,7 @@ var dataSend = new Object({
     DEAL_ID:deal_id,
     LOCATION_ID:document.querySelector("[name='UF_LOCATION']").value
 });
-var url = "/bitrix/admin/itua_novaposhta_getdealproducts.php";
+var url = "/bitrix/admin/test.php";
 BX.ajax({
     url: url,
     data: dataSend,
