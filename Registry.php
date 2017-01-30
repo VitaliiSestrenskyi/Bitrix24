@@ -1,3 +1,4 @@
+<?
 class Registry
 {
     static private $_instance = null;
