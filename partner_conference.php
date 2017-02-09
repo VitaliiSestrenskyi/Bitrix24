@@ -266,4 +266,43 @@ AddEventHandler('main', 'OnEpilog', function (){
     CUtil::InitJSCore(['custom_main']);
 });
 
+/*
+//код исполняем когда Дом загружен
+BX.ready(function(){
+    var editButton = BX.findChild(
+        BX('task-view-buttons'),//для родителя
+        {
+            tag: 'a',
+            className: 'task-view-button edit'
+        },
+        true //поиск рекурсивно от родителя
+    );
 
+    if(editButton)
+    {
+        var href = window.location.href, matches, taskId;
+
+        //узнаем id задачи из url
+        if(matches == href.match(/\/task\/view\/([\d]+)\//i))
+        {
+            taskId = matches[1];
+        }
+
+        //создаем кнопку
+        var newButton = BX.create('a',{
+            attrs:{
+                href: href+(href.indexOf('?') === -1 ? '?' : '&') + 'task=' + taskId + '&' + 'pdf=1&sessid=' + BX.bitrix_sessid(),
+                className: 'task-view-button edit xxxxx'
+            },
+            text: 'Скачать как PDF'
+        });
+
+        //вставляем кнопку
+        BX.insertAfter(newButton, editButton);
+
+    }
+    
+});
+
+
+*/
