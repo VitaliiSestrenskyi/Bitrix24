@@ -1,3 +1,4 @@
+<?php
 \Bitrix\Main\Config\COption::GetOptionString('crm', 'default_product_catalog_id', '0');  --- ID инфоблока из которого будут подтягиватся товары для компонента bitrix:catalog.product.search
 \Bitrix\Main\Config\Option::get('catalog', 'product_form_show_offers_iblock');  ---- Настройка каталога нужно установить Y,  чтобы можно было выбирать инфоблок торг. предложений  
 
@@ -30,3 +31,10 @@ $test = \Bitrix\Crm\DealTable::getList([
     'filter'=>array('<=DATE_CREATE'=>\Bitrix\Main\Type\DateTime::createFromUserTime($end), '>=DATE_CREATE'=>\Bitrix\Main\Type\DateTime::createFromUserTime($start)),
     'select'=>array('*')
 ])->fetchAll();
+
+
+//обновления UF_*
+global $USER_FIELD_MANAGER;
+$checkUpdate = $USER_FIELD_MANAGER->Update( 'CRM_DEAL', 290, array(
+    'UF_SELECT_CONTACT_IN'  => $tttttesttt
+) );
