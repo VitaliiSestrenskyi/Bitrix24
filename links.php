@@ -3,3 +3,5 @@
 //https://github.com/socialConnect/auth
 //http://laraadmin.com/
 //https://github.com/cjp2600/bim-core
+//https://github.com/SidiGi/bitrix-info/wiki
+
