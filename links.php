@@ -4,4 +4,4 @@
 //http://laraadmin.com/
 //https://github.com/cjp2600/bim-core
 //https://github.com/SidiGi/bitrix-info/wiki
-
+//https://github.com/studiofact/wiki-bitrix
