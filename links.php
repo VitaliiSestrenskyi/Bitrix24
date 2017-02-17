@@ -7,3 +7,4 @@
 //https://github.com/studiofact/wiki-bitrix
 //https://github.com/DigitalWand/digitalwand.admin_helper/
 //https://github.com/composer/installers/
+//https://github.com/vmpartner/bitrixdock
