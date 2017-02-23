@@ -10,6 +10,8 @@
 //https://github.com/vmpartner/bitrixdock
 //https://github.com/LaraDock/laradock
 
+//http://phpdebugbar.com/docs/
+
 //https://www.youtube.com/watch?v=GPcYx3BHcxg
 
 //http://alittlebit.ru/blog/vebmasterskaya/1c-bitrix/ssylki-elementa-1s-bitriks.html  --- реализация Эрмитажа
