@@ -15,5 +15,6 @@
 //https://www.youtube.com/watch?v=GPcYx3BHcxg
 //https://invisible.io/partners/
 //https://www.sololearn.com/
+//https://www.glassdoor.com/index.htm
 
 //http://alittlebit.ru/blog/vebmasterskaya/1c-bitrix/ssylki-elementa-1s-bitriks.html  --- реализация Эрмитажа
