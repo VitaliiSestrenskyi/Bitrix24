@@ -11,6 +11,8 @@
 //https://github.com/LaraDock/laradock
 
 //http://phpdebugbar.com/docs/
+//https://remoteok.io/
+
 
 //https://www.youtube.com/watch?v=GPcYx3BHcxg
 //https://invisible.io/partners/
