@@ -21,3 +21,4 @@
 //http://dermanov.ru/exp/bitrix-integration-with-1c-brief-introduction/   --- 1C
 
 //http://alittlebit.ru/blog/vebmasterskaya/1c-bitrix/ssylki-elementa-1s-bitriks.html  --- реализация Эрмитажа
+//https://github.com/robmorgan/phinx - миграции
