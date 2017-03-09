@@ -22,3 +22,4 @@
 
 //http://alittlebit.ru/blog/vebmasterskaya/1c-bitrix/ssylki-elementa-1s-bitriks.html  --- реализация Эрмитажа
 //https://github.com/robmorgan/phinx - миграции
+//https://github.com/e-pages/bitrix-db-migrations - примеры саммых частных миграций для Битрикса 
