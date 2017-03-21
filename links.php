@@ -27,3 +27,4 @@
 
 //https://u.magento.com/fundamentals-of-magento-2-development?habrahabr#.WMkpDzuLSCp --- Magento
 //https://dou.ua/forums/topic/20105/ - Magento courses 
+//https://habrahabr.ru/post/324220/ - NodeJS 
