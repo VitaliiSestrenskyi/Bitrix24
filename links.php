@@ -23,7 +23,7 @@
 //http://alittlebit.ru/blog/vebmasterskaya/1c-bitrix/ssylki-elementa-1s-bitriks.html  --- реализация Эрмитажа
 //https://github.com/robmorgan/phinx - миграции
 //https://github.com/e-pages/bitrix-db-migrations - примеры саммых частных миграций для Битрикса 
-
+//https://github.com/cjp2600/bim-core - миграции Битрикс
 
 //https://u.magento.com/fundamentals-of-magento-2-development?habrahabr#.WMkpDzuLSCp --- Magento
 //https://dou.ua/forums/topic/20105/ - Magento courses 
