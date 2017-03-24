@@ -25,6 +25,7 @@
 //https://github.com/e-pages/bitrix-db-migrations - примеры саммых частных миграций для Битрикса 
 //https://github.com/cjp2600/bim-core - миграции Битрикс
 //https://sourcemaking.com/design_patterns/command/php  
+//https://refactoring.guru/ru
 
 
 //https://u.magento.com/fundamentals-of-magento-2-development?habrahabr#.WMkpDzuLSCp --- Magento
