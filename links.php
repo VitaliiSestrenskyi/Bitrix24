@@ -32,3 +32,4 @@
 //https://dou.ua/forums/topic/20105/ - Magento courses 
 //https://habrahabr.ru/post/324220/ - NodeJS 
 //https://webref.ru/dev  - Веб-технологии
+//https://www.tutorialspoint.com/
