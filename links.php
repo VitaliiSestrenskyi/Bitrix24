@@ -26,6 +26,7 @@
 //https://github.com/cjp2600/bim-core - миграции Битрикс
 //https://sourcemaking.com/design_patterns/command/php  
 //https://refactoring.guru/ru
+//https://www.sitepoint.com/android-elephpant-laravel-android-phone/?utm_source=learninglaravel.net --- Android + Laravel
 
 
 //https://u.magento.com/fundamentals-of-magento-2-development?habrahabr#.WMkpDzuLSCp --- Magento
