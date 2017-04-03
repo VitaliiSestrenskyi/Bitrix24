@@ -34,3 +34,4 @@
 //https://habrahabr.ru/post/324220/ - NodeJS 
 //https://webref.ru/dev  - Веб-технологии
 //https://www.tutorialspoint.com/
+//https://dev.1c-bitrix.ru/community/blogs/dev_bx/a-recording-of-the-webinar-prepared-in-examination-no-2-the-delay-func.php  - 2 экзамен
