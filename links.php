@@ -27,7 +27,7 @@
 //https://sourcemaking.com/design_patterns/command/php  
 //https://refactoring.guru/ru
 //https://www.sitepoint.com/android-elephpant-laravel-android-phone/?utm_source=learninglaravel.net --- Android + Laravel
-
+//https://stingmu.gitbooks.io/symfony-3/content/5_service_container_dependency_injection/51_chto_takoe_service_conteiner.html  --- Symfony
 
 //https://u.magento.com/fundamentals-of-magento-2-development?habrahabr#.WMkpDzuLSCp --- Magento
 //https://dou.ua/forums/topic/20105/ - Magento courses 
