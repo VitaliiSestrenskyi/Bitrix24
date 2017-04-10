@@ -12,6 +12,7 @@
 
 //http://phpdebugbar.com/docs/
 //https://remoteok.io/
+//http://knpuniversity.com/ - Symfony 
 
 
 //https://www.youtube.com/watch?v=GPcYx3BHcxg
