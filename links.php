@@ -13,6 +13,7 @@
 //http://phpdebugbar.com/docs/
 //https://remoteok.io/
 //http://knpuniversity.com/ - Symfony 
+//https://www.youtube.com/channel/UCB838BuExxs4ZU1CGvtvPpg - MeteorJS
 
 
 //https://www.youtube.com/watch?v=GPcYx3BHcxg
