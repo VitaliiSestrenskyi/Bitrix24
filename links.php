@@ -22,6 +22,7 @@
 //https://www.glassdoor.com/index.htm
 //http://dermanov.ru/exp/bitrix-integration-with-1c-brief-introduction/   --- 1C
 //https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one
+//https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md - PSR-4
 
 
 //http://alittlebit.ru/blog/vebmasterskaya/1c-bitrix/ssylki-elementa-1s-bitriks.html  --- реализация Эрмитажа
