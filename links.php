@@ -40,3 +40,10 @@
 //https://webref.ru/dev  - Веб-технологии
 //https://www.tutorialspoint.com/
 //https://dev.1c-bitrix.ru/community/blogs/dev_bx/a-recording-of-the-webinar-prepared-in-examination-no-2-the-delay-func.php  - 2 экзамен
+
+
+
+//JS
+//https://github.com/bradtraversy/youtube_es2015_source/tree/master/03_classes
+//https://www.youtube.com/watch?v=RBLIm5LMrmc&list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv&index=4
+
