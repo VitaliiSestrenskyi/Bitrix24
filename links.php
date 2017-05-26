@@ -47,3 +47,5 @@
 //https://github.com/bradtraversy/youtube_es2015_source/tree/master/03_classes
 //https://www.youtube.com/watch?v=RBLIm5LMrmc&list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv&index=4
 
+//https://gist.github.com/fesor/76d39b19b18f7103a7c058301dc6a8fe
+//http://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/
