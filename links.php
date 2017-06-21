@@ -49,3 +49,8 @@
 
 //https://gist.github.com/fesor/76d39b19b18f7103a7c058301dc6a8fe
 //http://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/
+
+
+//Symfony
+//https://codereviewvideos.com/
+
