@@ -64,4 +64,8 @@
 //https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=7130
 
 
+//
+//http://bitrix-notes.readthedocs.io/en/latest/d7.html
+
+
 
