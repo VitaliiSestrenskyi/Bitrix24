@@ -73,4 +73,7 @@
 //Мастер
 //https://dev.1c-bitrix.ru/api_help/main/general/wizards/site/index.php
 
+//почта
+//https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=41&LESSON_ID=2946
+
 
