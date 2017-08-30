@@ -67,5 +67,7 @@
 //
 //http://bitrix-notes.readthedocs.io/en/latest/d7.html
 
+//bitrix API app 3
+//http://ekhlakov.blogspot.com/2015/09/bitrix24-api.html
 
 
