@@ -70,4 +70,7 @@
 //bitrix API app 3
 //http://ekhlakov.blogspot.com/2015/09/bitrix24-api.html
 
+//Мастер
+//https://dev.1c-bitrix.ru/api_help/main/general/wizards/site/index.php
+
 
