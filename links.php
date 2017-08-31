@@ -76,4 +76,6 @@
 //почта
 //https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=41&LESSON_ID=2946
 
+//excel bitrix
+//https://dev.1c-bitrix.ru/support/forum/forum6/topic21736/
 
