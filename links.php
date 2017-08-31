@@ -79,3 +79,7 @@
 //excel bitrix
 //https://dev.1c-bitrix.ru/support/forum/forum6/topic21736/
 
+//Настройка времени на сервере + Битриксе + бд 
+//http://dev.1c-bitrix.ru/support/faq/8366/#124253
+//https://moonback.ru/page/centos-time
+
