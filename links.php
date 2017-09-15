@@ -83,3 +83,6 @@
 //http://dev.1c-bitrix.ru/support/faq/8366/#124253
 //https://moonback.ru/page/centos-time
 
+//битрикс ,  аякс подгрузка 
+//https://www.olegpro.ru/post/bitriks_LazyLoad_ili_lenivaya_zagruzka_kontenta_pri_vklyuchennom_keshirovanii.html
+
