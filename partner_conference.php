@@ -305,4 +305,7 @@ BX.ready(function(){
 });
 
 
+
+//js/main/core/core.js  ===>>BX.onCustomEvent = function(eventObject, eventName, arEventParams, secureParams)
+
 */
