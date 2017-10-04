@@ -86,3 +86,7 @@
 //битрикс ,  аякс подгрузка 
 //https://www.olegpro.ru/post/bitriks_LazyLoad_ili_lenivaya_zagruzka_kontenta_pri_vklyuchennom_keshirovanii.html
 
+//https://www.engvid.com/
+//https://www.youtube.com/user/bbclearningenglish
+//https://www.youtube.com/user/MinooAngloLink
+
