@@ -90,3 +90,5 @@
 //https://www.youtube.com/user/bbclearningenglish
 //https://www.youtube.com/user/MinooAngloLink
 //https://dou.ua/lenta/articles/learn-english/
+
+//https://github.com/SmotrovaLilit/lb-knowbase/blob/master/articles/bitrix/admin_page/README.md  --- Создание админской страницы. Админская таблица
