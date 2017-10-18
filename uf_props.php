@@ -19,6 +19,7 @@ while($res = $crmTypeDealsDb->fetch())
             
             
 //отключения проверки пользовательских полей             
+//пример crm/classes/general/crm_contact.php
 $ID = $CCrmContact->Add(
 		$arFields,
                         true,
