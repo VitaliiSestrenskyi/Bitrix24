@@ -37,3 +37,20 @@ BX.ajax({
 
     }
 });
+
+
+//elem --- элемент,  который нужно вставить
+//refElem --- элемент после которого нужно вставить
+ window.ExtDownload.prototype.insertAfter = function (elem, refElem)
+    {
+        var parent = refElem.parentNode;
+        var next = refElem.nextSibling;
+        if (next) {
+            return parent.insertBefore(elem, next);
+        } else {
+            return parent.appendChild(elem);
+        }
+    };
+
+
+
