@@ -54,3 +54,30 @@ BX.ajax({
 
 
 
+//append js object to FormData
+appendArray: function(form_data, values, name)
+{
+    var _this = this;
+
+    if(!values && name)
+        form_data.append(name, '');
+    else{
+        if(typeof values == 'object'){
+            for(key in values)
+            {
+                if(typeof values[key] == 'object')
+                    _this.appendArray(form_data, values[key], name + '[' + key + ']');
+                else
+                    form_data.append(name + '[' + key + ']', values[key]);
+            }
+        }
+        else
+            form_data.append(name, values);
+    }
+
+    return form_data;
+},
+ var formData = new FormData(document.getElementById('table-container'));
+formData.append("sessid",BX.bitrix_sessid());
+_this.appendArray( formData, _this._arParams, "arParams" );    
+    
