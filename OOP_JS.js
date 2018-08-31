@@ -1,40 +1,43 @@
- function Animal(name)
+if( typeof (CrmValidator) === "undefined")
+{
+    CrmValidator = function ()
+    {
+        this.element = "";
+        this.validationTypes = [];
+        this.errorMessages = {};
+    };
+    CrmValidator.prototype =
+    {
+        initialize: function (element, validationTypes, errorMessages)
         {
-            this.name = name;
-            this.canWalk = "привет от животного";
-        };
+            this._this = this;
+            this._element = element;
+            this._validationTypes = validationTypes;
+            this._errorMessages = errorMessages;
+        },
+    };
+}
 
-        Animal.prototype.test = function (changeCanWalk)
-        {
-            this.canWalk = changeCanWalk;
-            return this.canWalk;
-        };
+if( typeof (CrmValidatorInput) === "undefined")
+{
+    CrmValidatorInput = function ()
+    {
 
-        Animal.prototype.simpleMethod = function () {
-            return 'простой стат метод';
-        };
+    };
 
-        function Rabbit(name)
-        {
-            Rabbit.superclass.constructor.call(this, name);
-            this.name = name;
-        };
+    //Extend + Save constructor
+    CrmValidatorInput.prototype = Object.create(CrmValidator.prototype);
+    CrmValidatorInput.prototype.constructor = CrmValidatorInput;
 
-        function extend(Child, Parent)
-        {
-            var F = function() { };
-            F.prototype = Parent.prototype;
-            Child.prototype = new F();
-            Child.prototype.constructor = Child;
-            Child.superclass = Parent.prototype;
-        };
+    CrmValidatorInput.prototype.validate = function()
+    {
+        console.log( this );
+    };
 
-        extend(Rabbit, Animal);
-        //BX.extend(Rabbit, Animal);
-
-        var rabbit = new Rabbit("тест кролика");
-
-        console.log(rabbit.canWalk);
-        console.log( rabbit.test("NEWWWWW") );
-        console.log( rabbit.simpleMethod() );
-        console.log( rabbit.__proto__ );
+    CrmValidatorInput.create = function(element, validationTypes, errorMessages)
+    {
+        var self = new CrmValidatorInput();
+        self.initialize(element, validationTypes, errorMessages);
+        return self;
+    };
+}
