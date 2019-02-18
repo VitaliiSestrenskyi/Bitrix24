@@ -17,7 +17,7 @@
     ],
     "require": {
         "symfony/dependency-injection":"3.4.x-dev",
-        "itua/testcsomposer":"dev-master"
+        "testcompany/testcsomposer":"dev-master"
     },
     "config":{
         "secure-http":false
