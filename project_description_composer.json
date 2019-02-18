@@ -1,0 +1,15 @@
+{
+    "name": "testcompany/testcsomposer",
+    "version":"dev-master",
+    "minimum-stability": "dev",
+    "type": "project",
+    "license": "proprietary",
+    "description": "testcompany",
+    "keywords": [],
+    "authors": [
+         {
+            "name": "Vitalii Sestrenskyi",
+            "email": "test@gmail.com"
+        }
+    ]
+}
