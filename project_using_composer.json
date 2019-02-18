@@ -1,0 +1,25 @@
+{
+    "name": "Project",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Vitalii Sestrenskyi",
+            "email": "test@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "http://gitlab.com/v.sestrenskiy/testcsomposer.git"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection":"3.4.x-dev",
+        "itua/testcsomposer":"dev-master"
+    },
+    "config":{
+        "secure-http":false
+    }
+}
